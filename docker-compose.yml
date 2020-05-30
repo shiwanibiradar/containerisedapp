@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myweb:
+    build: .
+    ports:
+     - "5000:5000"
+  mydb:
+    image: "redis:alpine
